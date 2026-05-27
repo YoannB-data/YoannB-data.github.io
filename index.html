@@ -344,7 +344,7 @@
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="local bike" src="/assets/img/prevcorp.png" style="height: 100%; width: 100%" class="activator" />
+                <img alt="prevcorp" src="/assets/img/prevcorp.png" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
                 <span class="card-title activator teal-text hoverline">PrevCorp<i
@@ -354,19 +354,21 @@
                 </p>
               </div>
               <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
-                <b>Outils :</b> Python · API Anthropic · dbt Core · DuckDB · Git
+                <b>Outils :</b> Python · API Anthropic · dbt Core · DuckDB · MetricFlow · Streamlit · Git
                 <ul>
                   <li>Agent conversationnel Text-to-SQL construit sur un dataset synthétique modélisé en architecture médaillon</li>
                   <li>Python pur, sans framework LLM, pour comprendre avant d'automatiser</li>
-                  <li>Eval set maison : 61 questions catégorisées (YAML versionné, scoring automatique, rapports markdown)</li>
-                  <li>Score Phase 1 : 79,2% (42/53) — 11 échecs analysés et documentés</li>
-                  <li>Roadmap 6 phases : Streamlit et semantic layer (P2), RAG documents (P3), agent hybride LangGraph (P4), déploiement public (P5)</li>
+                  <li>Eval set maison : 67 questions catégorisées (YAML versionné, scoring automatique, rapports markdown)</li>
+                  <li>Phase 1 : 79,2% (42/53) — Phase 2 : 88,1% (59/67) — injection contexte dbt, few-shot dynamique, semantic layer MetricFlow</li>
+                  <li>Roadmap 6 phases : RAG documents (P3), agent hybride LangGraph (P4), déploiement public (P5)</li>
                 </ul>
                 <div class="card-action">
+                  <a aria-label="Voir la démo Loom" href="https://www.loom.com/share/ca039a46cd5e406ba638c9d5376c6a65"
+                    target="_blank" data-position="top" data-tooltip="Voir la démo"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-play"></i></a>
                   <a aria-label="Visit the GitHub repo for project" href="https://github.com/YoannB-data/prevcorp_agent"
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
@@ -376,6 +378,7 @@
             </div>
           </div>
 
+          
           <!-- Project 4 -->
           <div class="col s12 m6 l4">
             <div class="card medium">
